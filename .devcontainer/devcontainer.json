@@ -1,6 +1,11 @@
 {
-  "name": "Node Codespace",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
-  "features": {},
-  "postCreateCommand": "node -v && npm -v"
+  "name": "Cypress Browsers Codespace",
+  "image": "cypress/browsers:node20.11.0-chrome120-ff121",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  }
 }
