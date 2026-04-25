@@ -1,11 +1,4 @@
 {
   "name": "Cypress Browsers Codespace",
-  "image": "cypress/browsers:node20.11.0-chrome120-ff121",
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "dbaeumer.vscode-eslint"
-      ]
-    }
-  }
+  "image": "cypress/browsers:node20.11.0-chrome120-ff121"
 }
