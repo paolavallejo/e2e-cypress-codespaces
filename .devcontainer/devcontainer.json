@@ -1,0 +1,6 @@
+{
+  "name": "Node Codespace",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "features": {},
+  "postCreateCommand": "node -v && npm -v"
+}
